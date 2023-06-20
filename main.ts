@@ -35,7 +35,10 @@ basic.forever(function () {
     let rig_black = (0 ^ pins.digitalReadPin(RIGHT_IR)) == 0 ? false : true;
 
     if (left_black && rig_black) {
-        if (krizovatkaDoprava) doprava(180);
+        if (krizovatkaDoprava) {
+            doprava(180);
+            basic.pause(200);
+        }
         else rovne(110);
         
         krizovatkaDoprava = false;
