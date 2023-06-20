@@ -9,5 +9,5 @@
 - [ ] sonar obstacle detection <-- wasn't included when found out that it's optional  
 \
 \
-\  
+\
 ![moje pocity](https://i.imgur.com/sZBU7FX.png)
