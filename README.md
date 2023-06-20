@@ -1,6 +1,8 @@
 # PeeWee Car - (Semi)Autonomous Mode
 ### @steveruu & @JsemHarry7 
-
+\
+\
+![doslova ja](https://media.discordapp.net/attachments/1015685802619048126/1120719325964292096/speed.gif)
 ## Capabilities
 - [x] driving fast & stably on a black line
 - [x] intersection detections
