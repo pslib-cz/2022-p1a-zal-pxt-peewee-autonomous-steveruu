@@ -11,5 +11,5 @@
 \
 \
 ![moje pocity](https://i.imgur.com/sZBU7FX.png)
-### related projects:
+## Related projects:
 [pxt-peewee-rc-steveruu](https://github.com/pslib-cz/2022-p1a-zal-pxt-peewee-rc-steveruu)    
