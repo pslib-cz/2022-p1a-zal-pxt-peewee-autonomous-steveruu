@@ -7,18 +7,18 @@ pins.setPull(LEFT_IR, PinPullMode.PullNone);
 pins.setPull(RIGHT_IR, PinPullMode.PullNone);
 
 function rovne(speed = 130) {
-    PCAmotor.MotorRun(PCAmotor.Motors.M4, -speed);
     PCAmotor.MotorRun(PCAmotor.Motors.M1, speed);
+    PCAmotor.MotorRun(PCAmotor.Motors.M4, speed);
 }
 
 function doprava(speed: number) {
-    PCAmotor.MotorRun(PCAmotor.Motors.M4, speed); // 143 - normal; 180 - fast; 110 - slow;
     PCAmotor.MotorRun(PCAmotor.Motors.M1, speed);
+    PCAmotor.MotorRun(PCAmotor.Motors.M4, -speed); // 143 - normal; 180 - fast; 110 - slow
 }
 
 function doleva(speed: number) {
-    PCAmotor.MotorRun(PCAmotor.Motors.M4, -speed); // 143 - normal; 180 - fast; 110 - slow;
     PCAmotor.MotorRun(PCAmotor.Motors.M1, -speed);
+    PCAmotor.MotorRun(PCAmotor.Motors.M4, speed); // 143 - normal; 180 - fast; 110 - slow
 }
 
 let krizovatkaDoprava = false;
